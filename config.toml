@@ -2,6 +2,8 @@ baseURL = "http://rajat404.com/"
 languageCode = "en-us"
 title = "Rajat Goyal"
 theme = "hello-friend-ng"
+googleAnalytics = "UA-163911021-1"
+disqusShortname = "rajat404"
 
 # [taxonomies]
 #   category = "blog"
