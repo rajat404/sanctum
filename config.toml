@@ -76,6 +76,10 @@ disqusShortname = "rajat404"
     url  = "https://github.com/rajat404"
 
   [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/rajat404"
+
+  [[params.social]]
     name = "linkedin"
     url  = "http://in.linkedin.com/in/rajat404"
 
