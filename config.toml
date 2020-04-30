@@ -1,4 +1,4 @@
-baseURL = "http://rajat404.com/"
+baseURL = "https://rajat404.com/"
 languageCode = "en-us"
 title = "Rajat Goyal"
 theme = "hello-friend-ng"
@@ -81,7 +81,7 @@ disqusShortname = "rajat404"
 
   [[params.social]]
     name = "linkedin"
-    url  = "http://in.linkedin.com/in/rajat404"
+    url  = "https://in.linkedin.com/in/rajat404"
 
 [menu]
   [[menu.main]]
