@@ -1,7 +1,7 @@
 ---
 date: 2020-04-18
-linktitle: Hello Null
-title: Hello Null
+linktitle: 0
+title: Wake up, Neo...
 type:
 - post
 - posts
@@ -10,4 +10,4 @@ aliases:
 - /blog/hello/
 ---
 
-Wake up, Neo...
+The Matrix Has You...
