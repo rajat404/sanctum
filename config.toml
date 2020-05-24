@@ -11,7 +11,7 @@ disqusShortname = "rajat404"
 #   series   = "series"
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/blog/:year/:month/:title/"
 
 [author]
   name = "Rajat Goyal"
@@ -44,7 +44,7 @@ disqusShortname = "rajat404"
   justifyContent = false  # Set "text-align: justify" to .content.
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  contentTypeName = "blog"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
@@ -89,6 +89,6 @@ disqusShortname = "rajat404"
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "blog"
+    name       = "Blog"
+    url        = "blog/"
