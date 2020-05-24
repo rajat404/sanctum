@@ -6,7 +6,7 @@ type:
 - posts
 weight: 10
 aliases:
-- /blog/hello/
+- /blog/hello-world/
 ---
 
 The Matrix Has You

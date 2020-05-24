@@ -16,9 +16,9 @@ Wait, what's that last one - `An Interactive Regex Tutorial`. Now that I think a
 
 Yet another day in the life of the hoarder; scrounging for knowledge/wisdom/information among the drivel of the interwebs. As much as I'd like to blame technology for my fear of missing out, it was always there. Technology merely provided a channel for my depravities. As I stood leering at the broken beauty of the Internet, the flood-gates opened and out came gushing - everything I thought I wanted; filling my senses to the brim and then some, until I was subsumed by own perversions.
 
-Everyday I found myself bombarded with links. All with the same allure, and similar destinies - either `Save to Pocket` or `Add Bookmark`; though most of my usual haunts offered their own versions of the coffers that grew deeper with every link I dropped - `Add Tweet to Bookmarks` on Twiiter, `Save post` on Facebook, `Save to Watch later` on Youtube. Even Instagram has a little bookmark button next to each post - what you're supposed to save it for, is beyond me.
+Everyday I found myself bombarded with links. All with the same allure, and similar destinies - either `Save to Pocket` or `Add Bookmark`; though most of my usual haunts offered their own versions of the coffers that grew deeper with every link I dropped - `Add Tweet to Bookmarks` on Twitter, `Save post` on Facebook, `Save to Watch later` on Youtube. Even Instagram has a little bookmark button next to each post - what you're supposed to save it for, is beyond me.
 
-On some good days when I could muster the will to open the pandora's box, the sheer enormity of my precious hoard would throw me. Until a month ago, I had accrued 9K links on `Pocket` alone. Rest of the accounts were peanuts compared to it. This was the anxiety inducing behemoth that must be dealt it, in order to make a dent.
+On some good days when I could muster the will to open the pandora's box, the sheer enormity of my precious hoard would throw me. Until a month ago, I had accrued 9K links on `Pocket` alone. Rest of the accounts were peanuts compared to it. This was the anxiety inducing behemoth that must be dealt with, in order to make a dent.
 
 >
 > "As that I can see no way out but through" \
