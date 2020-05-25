@@ -16,3 +16,5 @@ Moonlights as Assistant (to the) Regional Manager, Dunder Mifflin, Scranton PA.
 
 
 DMs open on [twitter](https://twitter.com/rajat404). Feel free to holler.
+
+Old blog (yet to be migrated): https://medium.com/@rajat404
