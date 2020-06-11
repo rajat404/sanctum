@@ -12,10 +12,10 @@ Movies, Shows & Books are his Opium, Morphine & Ecstasy - in that order. \
 Has stronger bonds with fictional characters than the so-called 'real' ones.
 
 
-Spends his days at [Gojek](http://gojek.io) keeping some of their clusters (Kafka & Kubernetes) running. \
+Spends his days at [Gojek](http://gojek.io) keeping some of their clusters running. \
 Moonlights as Assistant (to the) Regional Manager, Dunder Mifflin, Scranton PA.
 
 
 DMs open on [twitter](https://twitter.com/rajat404). Feel free to holler.
 
-Old blog (yet to be migrated): https://medium.com/@rajat404
+Old blog: https://medium.com/@rajat404
