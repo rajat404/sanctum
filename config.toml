@@ -57,7 +57,7 @@ disqusShortname = "rajat404"
     theme = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd /home"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -92,3 +92,34 @@ disqusShortname = "rajat404"
     identifier = "blog"
     name       = "Blog"
     url        = "blog/"
+  [[menu.main]]
+    identifier = "til"
+    name       = "TIL"
+    url        = "til/"
+
+
+
+# # 404.html
+# #
+# [archives]
+# other = "Archives"
+
+# [home]
+# other = "Home"
+
+# [notFound]
+# other = "Oops, page not found…"
+
+
+# # posts/single.html
+# #
+# [readingTime]
+# one   = "One minute"
+# other = "{{ .Count }} minutes"
+
+# [tableOfContents]
+# other = "Table of Contents"
+
+# [wordCount]
+# one   = "One Word"
+# other = "{{ .Count }} Words"
