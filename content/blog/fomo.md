@@ -25,7 +25,7 @@ On some good days when I could muster the will to open the pandora's box, the sh
 > {{< space 50 >}} -- Robert Frost
 >
 
-And so I dipped my toes into the golden cesspool. The goal was to bring the number down. I decided to delete as much as possible. Procedure for curation was simple:
+And so I dipped my toes into the golden cesspool. The goal was to bring the number down. I decided to delete as much as possible. My algorithm for curation was simple:
 
 
 1. Pick the first link in the queue, and read its title.
