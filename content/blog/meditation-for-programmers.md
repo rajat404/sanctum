@@ -43,3 +43,4 @@ For now your intended processes have ample resources, but what's to keep another
 Consider doing this exercise of monitoring & eliminating every morning for 10 minutes to begin with. What happens if you meditate for 30 minutes? Well, the probability of unwanted processes cropping up reduces. Simply put, the time you spend on observing & curating your state of mind is inversely proportional to the chances of unwanted thoughts intruding on your consciousness.
 
 Hope this gives you a relatable mental model to grok meditation. Meditation isn't some _Art of Living_ faff, but a simple straightforward technique to manage your system health.
+Hope this gives you a relatable mental model to grok meditation. Meditation isn't some _Art of Living_ faff, but a simple straightforward technique to manage your system health.

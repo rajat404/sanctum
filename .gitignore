@@ -34,6 +34,8 @@ hugo.darwin
 hugo.linux
 
 # End of https://www.gitignore.io/api/git,hugo,code
+
 node_modules/
 *.swp
 *.DS_Store
+**/drafts/
