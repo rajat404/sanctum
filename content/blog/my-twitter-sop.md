@@ -37,3 +37,11 @@ I'm a digital nomad who tends to stumble upon shiny things in the interwebs and 
 Some other topics I tweet about - software development, productivity,  mental health, human behaviour, organizational psychology.
 
 Needless to say I do log a lot of my thoughts & life events on twitter. The frequency usually depends on how busy I've been at a given point in time.
+
+### Why don't I follow you?
+
+Most likely, recent content of your feed didn't resonate with me - at the time I last checked.
+
+### Why did I unfollow you?
+
+Same as above. Though I'm always open to re-following folks.
