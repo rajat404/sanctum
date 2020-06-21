@@ -28,7 +28,7 @@ Give it a shot. Nothing to lose. You can always unfollow 😉
 
 Starting quite recently, I refrain from tweeting about politics, religion, or whatever the headlines are saying in any given news cycle.
 
-Twitter has a variety of channels for consuming information pertaining to current affairs - me not retweeting about the dangerously rising COVID-19 deaths doesn't mean the information won't reach the people who need it.
+Twitter has a variety of channels for consuming information pertaining to current affairs - me not retweeting about the numerous social injustices doesn't mean the information won't reach the people who need it.
 
 ### What will I post?
 
