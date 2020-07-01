@@ -15,7 +15,8 @@ Has stronger bonds with fictional characters than the so-called 'real' ones.
 Spends his days at [Gojek](http://gojek.io) keeping some of their clusters running. \
 Moonlights as Assistant (to the) Regional Manager, Dunder Mifflin, Scranton PA.
 
+Previous blog: https://medium.com/@rajat404
 
-DMs open on [twitter](https://twitter.com/rajat404). Feel free to holler.
-
-Old blog: https://medium.com/@rajat404
+Get in touch:
+- twitter: [@rajat404](https://twitter.com/rajat404)
+- email: rajat404[at]hey.com
