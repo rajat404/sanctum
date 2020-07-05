@@ -96,3 +96,7 @@ disqusShortname = "rajat404"
     identifier = "til"
     name       = "TIL"
     url        = "til/"
+  [[menu.main]]
+    identifier = "tools"
+    name       = "Tools"
+    url        = "tools/"
