@@ -6,7 +6,7 @@ type:
 - posts
 ---
 
-As I was curating my github stars (~250 at the time of writing), I found a lot of study guides, resources, list of tools etc, which I've seldom used due to the sheer volume of my hoarded links. Anyhow, I figured someone else might put them to better use. So here's the list, hope it helps.
+As I was curating my github stars (~250 at the time of writing), I found a lot of study guides, resources, list of tools etc, which I've seldom used due to the sheer volume of my [hoarded links]({{< ref "fomo.md" >}}). Anyhow, I figured someone else might put them to better use. So here's the list, hope it helps.
 
 - https://github.com/donnemartin/system-design-primer
 - https://github.com/sdmg15/Best-websites-a-programmer-should-visit
