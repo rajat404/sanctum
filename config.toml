@@ -1,102 +1,66 @@
 baseURL = "https://rajat404.com/"
 languageCode = "en-us"
 title = "Rajat Goyal"
-theme = "hello-friend-ng"
-googleAnalytics = "UA-163911021-1"
-disqusShortname = "rajat404"
-
-# [taxonomies]
-#   category = "blog"
-#   tag      = "tags"
-#   series   = "series"
-
-[permalinks]
-  posts = "/blog/:year/:month/:title/"
-
-[author]
-  name = "Rajat Goyal"
+theme = "hello-friend"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "Personal Website & Blog"
-  keywords = ""
-  images = [""]
-
-  homeSubtitle = "SciFi Nerd. Book Hoarder. Software Developer. Geek Extraordinaire"
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = true  # Set "text-align: justify" to .content.
-
-  # Directory name of your blog content (default is `content/posts`)
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
   contentTypeName = "blog"
 
-  # Default theme "light" or "dark"
+  # "light" or "dark"
   defaultTheme = "dark"
-  themeColor = "#252627"
 
-  # Colors for favicons
-  [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 10
 
-  [params.logo]
-    logoText     = "$ cd /home"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
+  # Show reading time in minutes for posts
+  showReadingTime = false
 
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/rajat404"
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
 
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/rajat404"
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
 
-  [[params.social]]
-    name = "instagram"
-    url  = "https://instagram.com/rajat404"
+[languages]
+  [languages.en]
+    title = "Blog"
+    subtitle = "SciFi Nerd. Book Hoarder. Software Developer. Geek Extraordinaire"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2 Jan 2006"
+    dateFormatList = "2 Jan 2006"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
 
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://in.linkedin.com/in/rajat404"
+    [languages.en.params.logo]
+      logoText = "$ /home"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "blog/"
-  [[menu.main]]
-    identifier = "til"
-    name       = "TIL"
-    url        = "til/"
-  [[menu.main]]
-    identifier = "tools"
-    name       = "Tools"
-    url        = "tools/"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "til"
+        name       = "TIL"
+        url        = "/til"
+      [[languages.en.menu.main]]
+        identifier = "tools"
+        name       = "Tools"
+        url        = "/tools"

@@ -1,9 +1,5 @@
 +++
-title = "About Me"
-date = "2019-04-18"
-url = "/about"
-aliases = ["about-me", "about", "contact", "hello", "hi"]
-logoSubPath = "about"
+title = "About"
 +++
 
 Dunning at Dawn, Kruger at Dusk, Impostor in between. \
