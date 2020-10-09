@@ -1,6 +1,7 @@
 ---
 title: "Finding files/dirs with common subpath"
 date: "2020-08-15"
+tags: ["TIL", "shell", "find"]
 ---
 
 Recently I found myself looking for all the files of the same name & subpath. For context, it's a GitOps (or CI-Ops, if you're from the weaveworks gang 😛) repository, where the root directories are k8s clusters and the inner directories are components, with the leaf file being the [helmfile](https://github.com/roboll/helmfile) we use for deployments.

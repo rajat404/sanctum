@@ -1,6 +1,7 @@
 ---
 title: "Auth0"
 date: "2020-07-05"
+tags: ["TIL", "auth"]
 ---
 __Link:__ https://auth0.com/pricing/
 

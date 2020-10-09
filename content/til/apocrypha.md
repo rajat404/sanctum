@@ -1,6 +1,7 @@
 ---
 title: "Word: Apocrypha"
 date: "2020-06-21"
+tags: ["TIL", "word"]
 ---
 
 A written work with unknown/doubtful origin.
