@@ -1,9 +1,7 @@
 ---
 date: 2020-06-20
 title: "My Twitter SOP"
-type:
-- post
-- posts
+tags: ["blog"]
 ---
 
 ### Should you unfollow me?

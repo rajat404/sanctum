@@ -1,9 +1,7 @@
 ---
 date: 2020-05-24
 title: "FOMO: The Abyss of My Hoarded Treasure"
-type:
-- post
-- posts
+tags: ["blog"]
 ---
 
 10 seconds into the article, it was established that it interested me. Though I didn't feel like reading it right then, for it was a busy day (not unlike most days). I clicked on the `Pocket` icon tucking it away for later.

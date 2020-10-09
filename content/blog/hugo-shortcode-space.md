@@ -1,9 +1,7 @@
 ---
 date: 2020-06-21
 title: "Hugo Shortcodes: Adding Space"
-type:
-- post
-- posts
+tags: ["blog"]
 ---
 I often found myself wanting to add empty spaces in my text. However the thought of having my text littered with a series of `&nbsp;` blocks was repulsive.
 

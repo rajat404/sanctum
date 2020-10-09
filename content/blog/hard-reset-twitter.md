@@ -1,9 +1,7 @@
 ---
 date: 2020-06-20
 title: "Hard Reset Twitter"
-type:
-- post
-- posts
+tags: ["blog"]
 ---
 
 Towards the end of May 2020 I decided to start over, and unfollowed everyone on twitter.
