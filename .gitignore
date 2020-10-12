@@ -38,4 +38,4 @@ hugo.linux
 node_modules/
 *.swp
 *.DS_Store
-**/drafts/
+**/.drafts/*
