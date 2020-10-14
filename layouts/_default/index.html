@@ -20,18 +20,12 @@
               href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
           </h3>
           <div class="archive__post-meta">
-            <span class="archive__post-date">
-              {{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}
-            </span>
-            {{ with .Params.Author }}
-            <span class="archive__post-author">—
-              {{ $.Site.Params.WrittenBy | default "Written by" }}
-              {{ . }}
-            </span>
-            {{ end }}
-            {{ if $.Site.Params.ShowReadingTime }}
-            <span class="archive__post-read-time">— {{ .ReadingTime }}
-              {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
+            {{ if .Params.tags }}
+              <span class="post-tags">
+                {{ range .Params.tags }}
+                  <a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">#{{ . }}</a>&nbsp;
+                {{ end }}
+              </span>
             {{ end }}
           </div>
         </div>
