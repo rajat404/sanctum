@@ -1,31 +1,13 @@
 {{ define "main" }}
-  <div class="posts">
+<div class="archive">
+  <h1>Posts with tag <i>#{{ .Title }}</i></h1>
+
+  <div class="archive__group-posts">
     {{ range .Pages }}
-      <div class="post on-list">
-        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
-        <div class="post-meta">
-          {{ if .Date }}
-            <span class="post-date">
-              {{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}
-            </span>
-
-            {{ if $.Site.Params.LastModDisplay }}
-              {{ partial "lastmod.html" . }}
-            {{ end }}
-          {{ end }}
-          {{ with .Params.Author }}
-            <span class="post-author"
-              >— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span
-            >{{ end }}
-
-
-          {{ if $.Site.Params.ShowReadingTime }}
-            <span class="post-read-time"
-              >— {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span
-            >
-          {{ end }}
-        </div>
-
+      <div class="archive__post">
+        <h3 class="archive__post-title">
+          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </h3>
         {{ if .Params.tags }}
           <span class="post-tags">
             {{ range .Params.tags }}
@@ -33,21 +15,6 @@
             {{ end }}
           </span>
         {{ end }}
-
-        {{ if .Params.Cover }}
-          <figure class="post-cover">
-         {{ if .Params.UseRelativeCover }}
-            <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" />
-          {{ else }}
-            <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" />
-            {{ end }}
-
-            {{ if .Params.CoverCaption }}
-              <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
-            {{ end }}
-          </figure>
-        {{ end }}
-
       </div>
     {{ end }}
     {{ partial "pagination.html" . }}
