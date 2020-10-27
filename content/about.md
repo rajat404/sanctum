@@ -13,6 +13,8 @@ Moonlights as Assistant (to the) Regional Manager, Dunder Mifflin, Scranton PA.
 
 Previous blog: https://medium.com/@rajat404
 
-Get in touch:
-- twitter: [@rajat404](https://twitter.com/rajat404)
-- email: rajat404[at]hey.com
+Connect with me on:
+- Twitter: [twitter.com/rajat404](https://twitter.com/rajat404)
+- Email: rajat404[at]hey.com
+- Goodreads: [goodreads.com/rajat404](https://goodreads.com/rajat404)
+- Medium (older blog): [medium.com/@rajat404](https://medium.com/@rajat404)
