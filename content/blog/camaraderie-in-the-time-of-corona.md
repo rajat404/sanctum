@@ -1,7 +1,10 @@
 ---
-title: Camaraderie in the times of Corona
+title: Camaraderie in the time of Corona
 date: 2020-11-14
 tags: ["blog", "remote", "covid"]
+aliases:
+- /blog/camaraderie-in-the-times-of-corona/
+- /blog/camaraderie-in-the-time-of-corona/
 ---
 
 What once was called quarantine, is now the everyday life. COVID has thrown a wrench in the normal functioning of, well, everything! Sadly this includes our relations with our friends, colleagues and those who lie in the intersection of the two.
