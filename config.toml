@@ -64,3 +64,7 @@ theme = "hello-friend"
         identifier = "blog"
         name       = "Blog"
         url        = "/blog"
+      [[languages.en.menu.main]]
+        identifier = "links"
+        name       = "Links"
+        url        = "/links"
