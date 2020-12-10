@@ -1,7 +1,7 @@
 ---
 title: Stuck in the Void
 date: 2018-02-19
-tags: ["blog", "void", "null"]
+tags: ["blog", "void", "null", "bootcamp-journal"]
 ---
 
 As I stare at my blank screen thinking of things to write about for the quasi-mandatory daily blog post, I draw a blank. My mind which usually is in overdrive when thinking of random crap, seems to squirm at the idea of having any meaningful thoughts whatsoever.

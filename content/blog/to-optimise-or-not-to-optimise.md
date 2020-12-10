@@ -1,7 +1,7 @@
 ---
 title: To optimize or not to optimize
 date: 2018-02-21
-tags: ["blog", "optimize"]
+tags: ["blog", "optimize", "bootcamp-journal"]
 ---
 
 While we all have read & heard [Knuth’s immortal words](http://wiki.c2.com/?PrematureOptimization) on pre-optimization, the question becomes when is the right time to optimize, and more importantly, what to optimize?
