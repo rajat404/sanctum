@@ -17,6 +17,8 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 
 - https://doc.crds.dev/
 - https://learnk8s.io/blog
+- https://rbac.dev/
+- https://awesome-kubernetes.readthedocs.io/
 
 #### Databases
 
@@ -31,6 +33,7 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 
 - [Programming Guides](https://roadmap.sh/guides): Easy to follow guides on complex topics written and maintained by the community
 - [Julia Evans's Zines](https://wizardzines.com/)
+- [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs)
 
 #### Stats/DS
 
