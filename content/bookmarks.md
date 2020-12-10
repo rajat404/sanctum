@@ -1,0 +1,72 @@
+---
+title: "Bookmarks"
+url: "/bookmarks"
+---
+
+I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share some of the gems from my hoard.
+
+## Software
+
+#### Containers
+
+- [Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker](https://www.inovex.de/blog/containers-docker-containerd-nabla-kata-firecracker/)
+- [Container Runtimes Series](https://www.ianlewis.org/en/container-runtimes-part-1-introduction-container-r)
+- [Migrating Kubernetes from Docker to containerd](https://www.youtube.com/watch?v=uDOu6rK4yOk)
+
+#### Kubernetes
+
+- https://doc.crds.dev/
+- https://learnk8s.io/blog
+
+#### Databases
+
+- [postgresqlco.nf](https://postgresqlco.nf/en/doc/param/): Explainer on all the configs of PostgreSQL
+- [PostgreSQL configuration wizard](https://pgtune.leopard.in.ua/)
+
+#### Git
+
+- https://ohshitgit.com/ : Cheatsheet for reverting Git screw-ups
+
+#### Explainers
+
+- [Programming Guides](https://roadmap.sh/guides): Easy to follow guides on complex topics written and maintained by the community
+- [Julia Evans's Zines](https://wizardzines.com/)
+
+#### Stats/DS
+
+- [ElementsOfDataScience](https://allendowney.github.io/ElementsOfDataScience/): An introduction to data science in Python, for people with no programming experience.
+
+#### Misc
+
+- https://crontab.guru : Simple editor for cron schedule expressions
+
+## Others
+
+#### Books
+
+- [HQ formatted editions of public domain ebooks](https://standardebooks.org/)
+
+#### Art
+
+- [Twitter list of my some of my fav art bots](https://twitter.com/i/lists/1319562633733836800)
+- [Twitter list of hundreds of art bots](https://twitter.com/i/lists/1319566688686280704)
+
+#### Org Dynamics
+
+- [The Gervais Principle](https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/)
+- [Get your work recognized: write a brag document](https://jvns.ca/blog/brag-documents/)
+
+#### Meta Learning
+
+- https://learningtolearn.guide
+
+#### Meta Work
+
+- [Are You Shipping Faster than You Learn, or Learning Faster than You Ship?](https://blog.amplitude.com/shipping-faster-than-you-learn)
+- [Think Big, Work Small](https://cutlefish.substack.com/p/tbm-4653-thinking-big-working-small)
+
+#### Shiny Things on the Inter Webs
+
+- [Ice cream flavors](https://benjerry.heshlindsdataviz.com/)
+- [Projecting Globe on Map](https://mathigon.org/course/circles/spheres-cones-cylinders#sphere-maps)
+- [Developing an Intuition for Pandemics ](https://infectiousmatter.com/)
