@@ -25,6 +25,7 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 
 - [postgresqlco.nf](https://postgresqlco.nf/en/doc/param/): Explainer on all the configs of PostgreSQL
 - [PostgreSQL configuration wizard](https://pgtune.leopard.in.ua/)
+- [PostgreSQL Observability](https://pgstats.dev/)
 
 #### Git
 
@@ -36,12 +37,14 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 - [Julia Evans's Zines](https://wizardzines.com/)
 - [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs)
 
-#### Stats/DS
+#### Stats/DS/Data Viz
 
 - [ElementsOfDataScience](https://allendowney.github.io/ElementsOfDataScience/): An introduction to data science in Python, for people with no programming experience.
+- [Python Plotting for Exploratory Data Analysis](https://pythonplot.com/)
 
 #### Misc
 
+- https://containersolutions.github.io/runbooks/
 - https://crontab.guru : Simple editor for cron schedule expressions
 
 ## Others
@@ -60,8 +63,9 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 - [The Gervais Principle](https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/)
 - [Get your work recognized: write a brag document](https://jvns.ca/blog/brag-documents/)
 
-#### Meta Learning
+#### Meta/Generic Learning Sources
 
+- https://learn-anything.xyz/
 - https://learningtolearn.guide
 
 #### Meta Work
@@ -74,3 +78,7 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 - [Ice cream flavors](https://benjerry.heshlindsdataviz.com/)
 - [Projecting Globe on Map](https://mathigon.org/course/circles/spheres-cones-cylinders#sphere-maps)
 - [Developing an Intuition for Pandemics ](https://infectiousmatter.com/)
+
+#### Fantastic Portfolios
+
+- https://andymatuschak.org/
