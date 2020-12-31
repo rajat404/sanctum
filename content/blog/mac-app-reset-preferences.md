@@ -1,7 +1,7 @@
 ---
 title: "Reset Preferences of Mac Apps"
 date: "2020-08-06"
-tags: ["TIL", "mac"]
+tags: ["TIL", "mac", "runbook"]
 ---
 
 While messing with my iTerm2 settings, I wanted to reset all preferences, and go back to the original terminal. \

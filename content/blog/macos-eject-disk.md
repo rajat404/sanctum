@@ -1,7 +1,7 @@
 ---
 title: "Ejecting Volumes on MacOS"
 date: "2020-09-02"
-tags: ["TIL", "mac"]
+tags: ["TIL", "mac", "runbook"]
 ---
 
 Unless you've been substantially fortunate you've probably seen the infernal dialogue box saying something on the lines of - _The disk wasn't ejected because one or more programs may be using it_, even when you know no apps are using it, coz you stopped all the damn apps!
