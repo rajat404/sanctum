@@ -6,7 +6,7 @@
       <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
     {{else}}
       <div class="copyright">
-        <span>© {{ now.Year }} | Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>© {{ now.Format "2006" }} | Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
       </div>
     {{end}}
   </div>
