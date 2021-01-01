@@ -5,6 +5,7 @@ tags: ["blog", "meditation"]
 aliases:
 - /blog/meditation/
 - /blog/meditation-for-developers/
+- /blog/meditation-for-programmers/
 ---
 
 _There are multiple benefits of meditating, however they won't be discussed here. This post aims to answer the `What` & `How`, rather than the `Why`._

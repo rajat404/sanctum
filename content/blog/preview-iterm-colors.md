@@ -2,6 +2,8 @@
 title: "Rapid Preview iTerm2 Colors"
 date: "2020-08-06"
 tags: ["TIL", "iterm"]
+aliases:
+- /blog/preview-iterm-colors/
 ---
 
 I was looking for a new color scheme for my terminal, and while browsing through the many [available color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes), I found this post to [quickly preview iTerm2 themes without having to import them first](https://medium.com/@peterpme/quickly-preview-iterm2-themes-without-having-to-import-them-first-3bb608b4974e). Hope it helps.

@@ -2,6 +2,8 @@
 title: "Word: Apocrypha"
 date: "2020-06-21"
 tags: ["TIL", "word"]
+aliases:
+- /blog/apocrypha/
 ---
 
 A written work with unknown/doubtful origin.

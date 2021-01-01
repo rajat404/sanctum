@@ -2,6 +2,8 @@
 title: "Mac Spotlight Applications list fix"
 date: "2020-12-30"
 tags: ["TIL", "mac", "runbook"]
+aliases:
+- /blog/mac-applications-not-showing-up-spotlight/
 ---
 
 If newly installed applications are not showing up in Spotlight, then try restarting Spotlight indexing:

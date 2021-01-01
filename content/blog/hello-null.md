@@ -4,6 +4,7 @@ title: Wake up, Neo
 tags: ["blog"]
 aliases:
 - /blog/hello-world/
+- /blog/hello-null/
 ---
 
 The Matrix Has You

@@ -2,6 +2,8 @@
 title: Moving Youtube Videos
 date: 2020-12-30
 tags: ["til", "hack", "youtube"]
+aliases:
+- /blog/moving-youtube-videos/
 ---
 
 I had hundreds of videos in my Youtube account's `Watch Later` list.

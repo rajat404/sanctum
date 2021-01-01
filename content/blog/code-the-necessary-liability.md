@@ -2,6 +2,8 @@
 title: Code - The Necessary Liability
 date: 2018-02-15
 tags: ["blog", "code", "prose", "bootcamp-journal"]
+aliases:
+- /blog/code-the-necessary-liability/
 ---
 
 While we all aim to improve the quality of our code, it’s perhaps best to sometimes take a step back and look at the bigger picture.

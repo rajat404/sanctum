@@ -2,6 +2,8 @@
 title: "Fantastic Fonts and Where to Find Them"
 date: "2020-08-06"
 tags: ["tools", "fonts"]
+aliases:
+- /blog/fantastic-fonts-and-where-to-find-them/
 ---
 
 My search for a decent font led me to [this amazing website](https://www.programmingfonts.org/) which shows you realtime preview of your code in the selected font.

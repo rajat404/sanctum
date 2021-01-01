@@ -2,6 +2,8 @@
 title: The Eloquent Programmer
 date: 2018-02-22
 tags: ["blog", "writing", "bootcamp-journal"]
+aliases:
+- /blog/the-eloquent-programmer/
 ---
 
 >    Clean code is simple and direct. Clean code reads like well-written prose.

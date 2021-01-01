@@ -2,6 +2,8 @@
 date: 2020-06-20
 title: "My Twitter SOP"
 tags: ["blog"]
+aliases:
+- /blog/my-twitter-sop/
 ---
 
 ### Should you unfollow me?

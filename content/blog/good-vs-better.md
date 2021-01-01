@@ -2,6 +2,8 @@
 title: Good vs Better
 date: 2018-02-14
 tags: ["blog", "growth", "prose", "bootcamp-journal"]
+aliases:
+- /blog/good-vs-better/
 ---
 
 While we’re aiming for good, what’s often overlooked is — what truly passes for ‘good’ in a given setting. Good is highly subjective, and can mean different things to different people, in different situations.

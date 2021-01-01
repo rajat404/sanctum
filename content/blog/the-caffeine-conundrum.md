@@ -2,6 +2,8 @@
 title: The Caffeine Conundrum
 date: 2018-02-17
 tags: ["blog", "coffee", "bootcamp-journal"]
+aliases:
+- /blog/the-caffeine-conundrum/
 ---
 
 Coffee — the wonder drug draped in the facade of a regular drink, offering respite from the shackles of sleep. Perhaps one of the earliest bio-hacks conceived by humanity.

@@ -3,6 +3,8 @@ date: 2020-08-05
 title: "Learning Guides & Resources"
 alias: ['/blog/test']
 tags: ["links", "resources"]
+aliases:
+- /blog/learning-guides/
 ---
 
 As I was curating my github stars (~250 at the time of writing), I found a lot of study guides, resources, list of tools etc, which I've seldom used due to the sheer volume of my [hoarded links]({{< ref "fomo.md" >}}). Anyhow, I figured someone else might put them to better use. So here's the list, hope it helps.
