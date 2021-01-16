@@ -81,4 +81,5 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 
 #### Fantastic Portfolios
 
+- https://julian.digital/
 - https://andymatuschak.org/
