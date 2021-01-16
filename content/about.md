@@ -1,20 +1,29 @@
-+++
-title = "About"
-+++
+---
+title: "About"
+aliases:
+- /about-me/
+- /bio/
+- /faq/
+- /hi/
+- /hi-there/
+---
 
-Dunning at Dawn, Kruger at Dusk, Impostor in between. \
-He who must not be disturbed in the middle of a book. \
-Movies, Shows & Books are his Opium, Morphine & Ecstasy - in that order. \
-Has stronger bonds with fictional characters than the so-called 'real' ones.
+# Hi there!
 
+Welcome to my virtual [sanctum](https://github.com/rajat404/sanctum).
 
-Spends his days at [Gojek](http://gojek.io) keeping some of their clusters running. \
-Moonlights as Assistant (to the) Regional Manager, Dunder Mifflin, Scranton PA.
+## `$whoami`
 
-Previous blog: https://medium.com/@rajat404
+Programmer. Writer. Geek. \
+❤️ [Books]((https://goodreads.com/rajat404)), [Movies](https://letterboxd.com/rajat404/), [Art](https://twitter.com/i/lists/1319562633733836800), [SciFi](https://www.goodreads.com/review/list/9865591-rajat-goyal?ref=nav_mybooks&shelf=sci-fi), [Code](https://github.com/rajat404), Coffee, Philosophy, Puns (and some other things) \
+Mildly Eccentric. Highly Sarcastic. Neat freak. Compulsive Optimizer. Productivity Addict. \
+Allegedly suffers from Imposter Syndrome. \
+Average Programmer. Above average Software Developer. \
+Goes by `rajat404` in the virtual realm. \
+Assistant (to the) Regional Manager at Dunder Mifflin.
 
-Connect with me on:
+Asocial, Anxious, Overthinking Introvert hoping to make friends over the internet. (The irony isn't lost on me.)
+
+Carpe D(ie)M me on:
+- Email: rajat404[at]hey[dot]com
 - Twitter: [twitter.com/rajat404](https://twitter.com/rajat404)
-- Email: rajat404[at]hey.com
-- Goodreads: [goodreads.com/rajat404](https://goodreads.com/rajat404)
-- Medium (older blog): [medium.com/@rajat404](https://medium.com/@rajat404)
