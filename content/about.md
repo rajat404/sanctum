@@ -19,7 +19,7 @@ Assistant (to the) Regional Manager at Dunder Mifflin.
 Asocial, Anxious, Introvert hoping to make friends over the internet. \
 (The irony isn't lost on me.)
 
-I (envision | plan | build | refactor | optimize | fix | upgrade | maintain | automate ) tech solutions for fun & profit. \
+I (envision | plan | build | refactor | optimize | fix | upgrade | maintain | automate) tech solutions for fun & profit. \
 Currently working at [gojek.io](https://www.gojek.io/)
 
 Carpe D(ie)M at:
