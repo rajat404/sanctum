@@ -19,6 +19,13 @@ Assistant (to the) Regional Manager at Dunder Mifflin.
 Asocial, Anxious, Introvert hoping to make friends over the internet. \
 (The irony isn't lost on me.)
 
-Carpe D(ie)M me on:
+I (envision | plan | build | refactor | optimize | fix | upgrade | maintain | automate ) tech solutions for fun & profit. \
+Currently working at [gojek.io](https://www.gojek.io/)
+
+Carpe D(ie)M at:
 - Email: rajat404[at]hey[dot]com
 - Twitter: [twitter.com/rajat404](https://twitter.com/rajat404)
+
+Always up for meeting new people. \
+Pick a slot on [calendly.com/rajat404](https://calendly.com/rajat404) and we'll talk soon. \
+(Please don't use this medium for making a sales pitch.)
