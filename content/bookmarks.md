@@ -15,6 +15,7 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 
 #### Kubernetes
 
+- https://mhausenblas.info/advocacy-sites.html
 - https://rbac.dev/
 - https://awesome-kubernetes.readthedocs.io/
 - https://kubernetes-security.info/
