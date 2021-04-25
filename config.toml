@@ -72,3 +72,7 @@ theme = "hello-friend"
         identifier = "tweetmarks"
         name       = "Tweetmarks"
         url        = "/tweetmarks"
+      [[languages.en.menu.main]]
+        identifier = "tools"
+        name       = "Tools"
+        url        = "/tools"

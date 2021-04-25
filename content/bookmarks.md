@@ -47,6 +47,7 @@ I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share 
 
 - https://containersolutions.github.io/runbooks/
 - https://crontab.guru : Simple editor for cron schedule expressions
+- https://support.google.com/mail/answer/7190?hl=en : Gmail Filters
 
 ## Others
 
