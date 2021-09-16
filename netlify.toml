@@ -34,3 +34,4 @@ HUGO_ENABLEGITINFO = "false"
   for = "/assets/*"
     [headers.values]
     Access-Control-Allow-Origin = "https://www.rajat404.com"
+    Access-Control-Allow-Origin = "https://rajat404.com"
