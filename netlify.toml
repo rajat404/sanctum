@@ -28,3 +28,9 @@ HUGO_VERSION = "0.79.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "false"
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/assets/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "https://www.rajat404.com"
