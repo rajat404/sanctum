@@ -36,4 +36,3 @@ package = "@algolia/netlify-plugin-crawler"
   pathPrefix = "/blog"
   customDomain = "rajat404.com"
   renderJavaScript = true
-  analytics = true
