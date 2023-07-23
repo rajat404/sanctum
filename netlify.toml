@@ -33,6 +33,6 @@ HUGO_ENABLEGITINFO = "false"
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ['main', 'master']
-  pathPrefix = "/blog"
+  pathPrefix = "/posts"
   customDomain = "rajat404.com"
   renderJavaScript = true
