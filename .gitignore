@@ -39,3 +39,4 @@ node_modules/
 *.swp
 *.DS_Store
 **/.drafts/*
+.hugo_build.lock

@@ -28,9 +28,11 @@ theme = "hello-friend"
 [languages]
   [languages.en]
     title = "Blog"
+    copyright = ""
+
+  [languages.en.params]
     subtitle = "SciFi Nerd. Book Hoarder. Software Developer. Geek Extraordinaire"
     keywords = ""
-    copyright = ""
     menuMore = " "
     writtenBy = "Written by"
     readMore = "Read more"

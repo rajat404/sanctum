@@ -14,7 +14,7 @@ Basically `git reset --hard <initial commit hash>` for twitter, and re-writing a
 
 This idea (like most good ones) wasn't mine. I had a faint recollection of [@anildash](http://twitter.com/anildash) doing this couple of years ago.
 
-{{< tweet 1014524046464208898 >}}
+{{< tweet user="anildash" id="1014524046464208898" >}}
 
 I used to spend a great deal of time on this codebase(twitter). Back in the pre-COVID era, when we used to work out of offices, I'd rarely open twitter during the day, given that some or the other person would be staring at my screen. With COVID-19 that was no longer the case, and the duration of my sessions on twitter soared.
 
@@ -46,4 +46,4 @@ Given that Change is inevitable - one can either proactively forge their path, o
 
 _Originally posted as a tweetstorm_
 
-{{< tweet 1263850507992354817 >}}
+{{< tweet user="rajat404" id="1263850507992354817" >}}
