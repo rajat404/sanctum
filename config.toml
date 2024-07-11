@@ -2,6 +2,7 @@ baseURL = "https://www.rajat404.com/"
 languageCode = "en-us"
 title = "Rajat Goyal"
 theme = "hello-friend"
+# theme = "hello-friend-ng"
 
 [params]
   # dir name of your blog content (default is `content/posts`).

@@ -23,9 +23,3 @@ Some interesting tweets that I like to revisit
 ## Tech
 
 {{< tweet user="ianmiell" id="1298571743511162885" >}}
-
-## Chill
-
-{{< tweet user="dannymatz90" id="1242518866279923712" >}}
-
-{{< tweet user="RexChapman" id="1246898583296708609" >}}
