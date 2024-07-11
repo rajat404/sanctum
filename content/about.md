@@ -14,13 +14,12 @@ Mildly Eccentric. Highly Sarcastic. Neat freak. Compulsive Optimizer. Productivi
 Allegedly suffers from Imposter Syndrome. \
 Average Programmer. Above average Software Developer. \
 Goes by `rajat404` in the virtual realm. \
-Assistant (to the) Regional Manager at Dunder Mifflin.
+Moonlights as Assistant (to the) Regional Manager at Dunder Mifflin.
 
 Asocial, Anxious, Introvert hoping to make friends over the internet. \
 (The irony isn't lost on me.)
 
-I (envision | plan | build | refactor | optimize | fix | upgrade | maintain | automate) tech solutions for fun & profit. \
-Currently working at [gojek.io](https://www.gojek.io/)
+I (plan | build | optimize | maintain | automate) tech solutions for fun & profit.
 
 Carpe D(ie)M at:
 - Email: rajat404[at]hey[dot]com
