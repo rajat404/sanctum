@@ -4,3 +4,8 @@
 
 
 Source for my website running at https://rajat404.com
+
+TODO:
+- feedback fish
+- posthog
+- algolia
