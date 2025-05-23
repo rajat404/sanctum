@@ -8,8 +8,6 @@ Some interesting tweets that I like to revisit
 
 ## Misc
 
-{{< tweet user="jeanqasaur" id="1202834730602729472" >}}
-
 {{< tweet user="tdhopper" id="1349842323950219264" >}}
 
 {{< tweet user="ponnappa" id="1347610238296354816" >}}

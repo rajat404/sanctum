@@ -1,6 +1,5 @@
 ---
 title: "Tools"
-url: "/tools"
 ---
 
 List of the applications/extensions/tools I use and/or recommend.

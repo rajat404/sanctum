@@ -1,11 +1,11 @@
 ---
 title: "About"
 aliases:
-- /about-me/
-- /bio/
-- /faq/
-- /hi/
-- /hi-there/
+- about-me
+- bio
+- faq
+- hi
+- hi-there
 ---
 
 Programmer. Writer. Geek. Overthinker. \

@@ -1,16 +1,16 @@
 {{ define "main" }}
   <div class="terms">
     <h1>{{ .Title }}</h1>
-    <ul class="terms__list">
+    <ul class="terms__list" style="display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0;">
       {{ $type := .Type }}
       {{ range $key, $value := .Data.Terms.Alphabetical }}
         {{ $name := .Name }}
         {{ $count := .Count }}
         {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
           <li class="terms__term">
-            <a href="{{ .Permalink }}"
-              >#{{ .Name }} <span class="terms__term-count">{{ $count }}</span></a
-            >
+            <a href="{{ .Permalink }}">
+              #{{ .Name }} <span class="terms__term-count">({{ $count }})</span>
+            </a>
           </li>
         {{ end }}
       {{ end }}

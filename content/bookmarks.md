@@ -1,6 +1,5 @@
 ---
 title: "Bookmarks"
-url: "/bookmarks"
 ---
 
 I have a massive [hoarding tendency](blog/fomo.md). This is an attempt to share some of the gems from my hoard.
