@@ -22,11 +22,11 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "^netlify\\.toml$",
-        "^\\.github/workflows/.*\\.ya?ml$",
-        "^Dockerfile$",
-        "^docker-compose\\.ya?ml$"
+      "managerFilePatterns": [
+        "/^netlify\\.toml$/",
+        "/^\\.github/workflows/.*\\.ya?ml$/",
+        "/^Dockerfile$/",
+        "/^docker-compose\\.ya?ml$/"
       ],
       "matchStrings": [
         "HUGO_VERSION\\s*=\\s*[\"'](?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)[\"']"
