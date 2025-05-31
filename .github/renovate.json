@@ -1,31 +1,39 @@
 {
-  "extends": ["config:base"],
-  "enabledManagers": ["git-submodule", "regex", "github-releases"],
-  "packageRules": [
-    {
-      "matchPackageNames": ["rhazdon/hugo-theme-hello-friend-ng"],
-      "groupName": "Hugo theme updates"
-    },
-    {
-      "matchPackageNames": ["hugo"],
-      "groupName": "Hugo version updates"
-    }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
   ],
-  "regexManagers": [
+  "timezone": "Asia/Kolkata",
+  "schedule": [
+    "at 12:00"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "assignees": [
+    "rajat404"
+  ],
+  "reviewers": [
+    "rajat404"
+  ],
+  "git-submodules": {
+    "enabled": true
+  },
+  "customManagers": [
     {
-      "fileMatch": ["^\\.github/workflows/.*\\.yml$"],
-      "matchStrings": [
-        "hugo-version: ['\"]?(?<currentValue>\\d+\\.\\d+\\.\\d+)['\"]?"
+      "customType": "regex",
+      "fileMatch": [
+        "^netlify\\.toml$",
+        "^\\.github/workflows/.*\\.ya?ml$",
+        "^Dockerfile$",
+        "^docker-compose\\.ya?ml$"
       ],
-      "depNameTemplate": "hugo",
+      "matchStrings": [
+        "HUGO_VERSION\\s*=\\s*[\"'](?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)[\"']"
+      ],
+      "depNameTemplate": "gohugoio/hugo",
       "datasourceTemplate": "github-releases",
-      "lookupNameTemplate": "gohugoio/hugo"
+      "extractVersionTemplate": "^v(?<version>.*)$"
     }
-  ],
-  "gitSubmoduleManagers": [
-    {
-      "path": "themes/hello-friend-ng"
-    }
-  ],
-  "schedule": ["weekly"]
+  ]
 }
