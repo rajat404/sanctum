@@ -1,0 +1,31 @@
+extends:
+  - config:base
+
+enabledManagers:
+  - git-submodule
+  - regex
+  - github-releases
+
+packageRules:
+  - matchPackageNames:
+      - rhazdon/hugo-theme-hello-friend-ng
+    groupName: Hugo theme updates
+
+  - matchPackageNames:
+      - hugo
+    groupName: Hugo version updates
+
+regexManagers:
+  - fileMatch:
+      - '^\\.github/workflows/.*\\.yml$'
+    matchStrings:
+      - 'hugo-version: [\'"]?(?<currentValue>\\d+\\.\\d+\\.\\d+)[\'"]?'
+    depNameTemplate: hugo
+    datasourceTemplate: github-releases
+    lookupNameTemplate: gohugoio/hugo
+
+gitSubmoduleManagers:
+  - path: themes/hello-friend-ng
+
+schedule:
+  - weekly
