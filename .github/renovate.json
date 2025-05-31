@@ -5,7 +5,7 @@
   ],
   "timezone": "Asia/Kolkata",
   "schedule": [
-    "0 12 * * *"
+    "* 12 * * *"
   ],
   "labels": [
     "dependencies"
