@@ -4,9 +4,6 @@
     "config:recommended"
   ],
   "timezone": "Asia/Kolkata",
-  "schedule": [
-    "* 12 * * *"
-  ],
   "labels": [
     "dependencies"
   ],
