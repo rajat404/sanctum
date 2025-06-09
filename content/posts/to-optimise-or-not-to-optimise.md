@@ -1,7 +1,8 @@
 ---
 title: To optimize or not to optimize
 date: 2018-02-21
-tags: ["blog", "optimize", "bootcamp-journal"]
+tags: ["optimize", "bootcamp-journal"]
+categories: ["blog"]
 aliases:
 - /blog/to-optimise-or-not-to-optimise/
 - /blog/to-optimize-or-not-to-optimize/

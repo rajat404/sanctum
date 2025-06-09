@@ -1,7 +1,8 @@
 ---
 title: "Mac Spotlight Applications list fix"
 date: "2020-12-30"
-tags: ["TIL", "mac", "runbook"]
+tags: ["mac", "runbook"]
+categories: ["TIL"]
 aliases:
 - /blog/mac-applications-not-showing-up-spotlight/
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Diff on Multiple Files"
 date: "2020-08-15"
-tags: ["TIL", "diff", "utility"]
+tags: ["diff", "utility"]
+categories: ["TIL"]
 aliases:
 - /blog/diff-multiple-files/
 ---

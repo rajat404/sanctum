@@ -2,6 +2,7 @@
 title: "Upgrading Hugo Site"
 date: 2025-05-27T20:52:42+05:30
 tags: ["tools", "hugo", "static-site"]
+categories: ["blog"]
 ---
 
 A normal day. You decide to resume blogging after ages. You look at your long ignored static generated site and try to build it. You hit enter and are met with the all too familiar "Error" message. But why? It was working the last time you ran this. It wasn't that long ago, was it? You look the timestamp of your last post and - damn! Four years ago. Alas! It really was that long ago.

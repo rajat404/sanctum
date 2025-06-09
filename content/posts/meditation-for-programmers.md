@@ -1,7 +1,8 @@
 ---
 date: 2020-05-25
 title: "Meditation: The Software Analogy"
-tags: ["blog", "meditation"]
+tags: ["meditation"]
+categories: ["blog"]
 aliases:
 - /blog/meditation/
 - /blog/meditation-for-developers/

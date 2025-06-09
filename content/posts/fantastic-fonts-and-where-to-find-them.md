@@ -2,6 +2,7 @@
 title: "Fantastic Fonts and Where to Find Them"
 date: "2020-08-06"
 tags: ["tools", "fonts"]
+categories: ["blog"]
 aliases:
 - /blog/fantastic-fonts-and-where-to-find-them/
 ---

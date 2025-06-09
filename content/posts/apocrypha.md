@@ -1,7 +1,8 @@
 ---
 title: "Word: Apocrypha"
 date: "2020-06-21"
-tags: ["TIL", "word"]
+tags: ["word"]
+categories: ["TIL"]
 aliases:
 - /blog/apocrypha/
 ---

@@ -1,7 +1,8 @@
 ---
 title: Camaraderie in the time of Corona
 date: 2020-11-14
-tags: ["blog", "remote", "covid"]
+tags: ["remote", "covid"]
+categories: ["blog"]
 aliases:
 - /blog/camaraderie-in-the-times-of-corona/
 - /blog/camaraderie-in-the-time-of-corona/

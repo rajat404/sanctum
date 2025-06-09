@@ -1,7 +1,8 @@
 ---
 title: Stuck in the Void
 date: 2018-02-19
-tags: ["blog", "void", "null", "bootcamp-journal"]
+tags: ["void", "null", "bootcamp-journal"]
+categories: ["blog"]
 aliases:
 - /blog/stuck-in-the-void/
 ---

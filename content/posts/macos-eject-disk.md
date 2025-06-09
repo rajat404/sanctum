@@ -1,7 +1,8 @@
 ---
 title: "Ejecting Volumes on MacOS"
 date: "2020-09-02"
-tags: ["TIL", "mac", "runbook"]
+tags: ["mac", "runbook"]
+categories: ["TIL"]
 aliases:
 - /blog/macos-eject-disk/
 ---

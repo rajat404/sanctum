@@ -1,7 +1,8 @@
 ---
 title: "Auth0"
 date: "2020-07-05"
-tags: ["TIL", "auth"]
+tags: ["auth"]
+categories: ["TIL"]
 aliases:
 - /blog/auth0/
 ---

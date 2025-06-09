@@ -1,7 +1,7 @@
 ---
 date: 2020-05-24
 title: "FOMO: The Abyss of My Hoarded Treasure"
-tags: ["blog"]
+categories: ["blog"]
 aliases:
 - /blog/fomo/
 ---

@@ -238,8 +238,16 @@ PygmentsStyle = "monokai"
     url        = "about/"
   [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = "Archive"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/categories/blog/"
+  [[menu.main]]
+    identifier = "til"
+    name       = "TIL"
+    url        = "/categories/til/"
   [[menu.main]]
     identifier = "bookmarks"
     name       = "Bookmarks"

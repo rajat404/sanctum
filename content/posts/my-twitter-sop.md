@@ -1,7 +1,7 @@
 ---
 date: 2020-06-20
 title: "My Twitter SOP"
-tags: ["blog"]
+categories: ["blog"]
 aliases:
 - /blog/my-twitter-sop/
 ---

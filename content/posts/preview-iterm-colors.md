@@ -1,7 +1,8 @@
 ---
 title: "Rapid Preview iTerm2 Colors"
 date: "2020-08-06"
-tags: ["TIL", "iterm"]
+tags: ["iterm"]
+categories: ["TIL"]
 aliases:
 - /blog/preview-iterm-colors/
 ---
