@@ -236,30 +236,32 @@ PygmentsStyle = "monokai"
     identifier = "about"
     name       = "About"
     url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Archive"
-    url        = "posts/"
+    weight     = 10
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
     url        = "/categories/blog/"
+    weight     = 20
   [[menu.main]]
     identifier = "til"
     name       = "TIL"
     url        = "/categories/til/"
+    weight     = 30
   [[menu.main]]
     identifier = "bookmarks"
     name       = "Bookmarks"
     url        = "bookmarks/"
+    weight     = 40
   [[menu.main]]
     identifier = "tweetmarks"
     name       = "Tweetmarks"
     url        = "tweetmarks/"
+    weight     = 50
   [[menu.main]]
     identifier = "tools"
     name       = "Tools"
     url        = "tools/"
+    weight     = 60
 
 [privacy]
   [privacy.x]
