@@ -10,6 +10,18 @@
   "git-submodules": {
     "enabled": true
   },
+  "packageRules": [
+    {
+      "matchManagers": ["git-submodules"],
+      "matchPackageNames": ["https://github.com/rhazdon/hugo-theme-hello-friend-ng.git"],
+      "versioning": "loose"
+    },
+    {
+      "matchPackageNames": ["gohugoio/hugo"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
