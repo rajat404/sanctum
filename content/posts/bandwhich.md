@@ -2,6 +2,7 @@
 title: "Bandwhich: Find Bandwidth Utilization"
 date: "2020-07-05"
 tags: ["tools", "bandwidth"]
+categories: ["blog"]
 aliases:
 - /blog/bandwhich/
 ---

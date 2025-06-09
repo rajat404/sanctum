@@ -3,6 +3,7 @@ date: 2020-08-05
 title: "Learning Guides & Resources"
 alias: ['/blog/test']
 tags: ["links", "resources"]
+categories: ["blog"]
 aliases:
 - /blog/learning-guides/
 ---

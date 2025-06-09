@@ -1,7 +1,8 @@
 ---
 title: "Finding files/dirs with common subpath"
 date: "2020-08-15"
-tags: ["TIL", "shell", "find"]
+tags: ["shell", "find"]
+categories: ["TIL"]
 aliases:
 - /blog/find-subpath-in-nested-directories/
 ---

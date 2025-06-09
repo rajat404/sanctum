@@ -1,7 +1,8 @@
 ---
 title: Moving Youtube Videos
 date: 2020-12-30
-tags: ["til", "hack", "youtube"]
+tags: ["hack", "youtube"]
+categories: ["TIL"]
 aliases:
 - /blog/moving-youtube-videos/
 ---

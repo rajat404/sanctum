@@ -1,7 +1,8 @@
 ---
 title: The Caffeine Conundrum
 date: 2018-02-17
-tags: ["blog", "coffee", "bootcamp-journal"]
+tags: ["coffee", "bootcamp-journal"]
+categories: ["blog"]
 aliases:
 - /blog/the-caffeine-conundrum/
 ---

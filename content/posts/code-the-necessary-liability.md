@@ -1,7 +1,8 @@
 ---
 title: Code - The Necessary Liability
 date: 2018-02-15
-tags: ["blog", "code", "prose", "bootcamp-journal"]
+tags: ["code", "prose", "bootcamp-journal"]
+categories: ["blog"]
 aliases:
 - /blog/code-the-necessary-liability/
 ---

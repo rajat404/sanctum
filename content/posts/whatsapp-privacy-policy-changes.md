@@ -2,6 +2,7 @@
 title: "Whatsapp: Big Brother gets a closer look"
 date: "2021-01-17"
 tags: ["privacy"]
+categories: ["blog"]
 ---
 
 A few days into the year 2021, Facebook gifted the world an ultimatum to [share their Whatsapp data with Facebook](https://arstechnica.com/tech-policy/2021/01/whatsapp-users-must-share-their-data-with-facebook-or-stop-using-the-app/). I posted the linked news article in some of the Whatsapp groups I'm part of, suggesting everyone to migrate to Telegram (or Signal or any other safer platform). This was the tinder that ignited the fiery debate of "stay vs move" in those channels - some more pervasive, persistent and passionate than others.

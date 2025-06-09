@@ -1,7 +1,8 @@
 ---
 title: Good vs Better
 date: 2018-02-14
-tags: ["blog", "growth", "prose", "bootcamp-journal"]
+tags: ["growth", "prose", "bootcamp-journal"]
+categories: ["blog"]
 aliases:
 - /blog/good-vs-better/
 ---

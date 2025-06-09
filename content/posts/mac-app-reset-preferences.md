@@ -1,7 +1,8 @@
 ---
 title: "Reset Preferences of Mac Apps"
 date: "2020-08-06"
-tags: ["TIL", "mac", "runbook"]
+tags: ["mac", "runbook"]
+categories: ["TIL"]
 aliases:
 - /blog/mac-app-reset-preferences/
 ---

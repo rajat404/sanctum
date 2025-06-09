@@ -1,7 +1,8 @@
 ---
 date: 2020-06-21
 title: "Hugo Shortcodes: Adding Space"
-tags: ["blog", "hack"]
+tags: ["hack"]
+categories: ["blog"]
 aliases:
 - /blog/hugo-shortcode-space/
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-20
 title: "Hard Reset Twitter"
-tags: ["blog"]
+categories: ["blog"]
 aliases:
 - /blog/hard-reset-twitter/
 ---

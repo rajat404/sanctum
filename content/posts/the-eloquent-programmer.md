@@ -1,7 +1,8 @@
 ---
 title: The Eloquent Programmer
 date: 2018-02-22
-tags: ["blog", "writing", "bootcamp-journal"]
+tags: ["writing", "bootcamp-journal"]
+categories: ["blog"]
 aliases:
 - /blog/the-eloquent-programmer/
 ---
