@@ -27,9 +27,8 @@ Sanctum-specific operational rules.
 - Current stable path uses `libsass` in `layouts/partials/head.html` for Netlify compatibility.
 - Do not switch to `dartsass` in production workflow unless Netlify build parity is explicitly verified.
 
-## Algolia and search
+## Search status
 
-- Local validation defaults to `ALGOLIA_DISABLED=true` in predeploy checks.
-- Use `scripts/predeploy-check.sh --online --algolia-on --context production` for explicit Algolia-path checks.
-- Local Algolia plugin behavior has known limitations; confirm real Algolia health from Netlify deploy logs.
-- Do not debug Algolia backend health before confirming a visible search UI exists in the site UX.
+- Algolia Netlify crawler plugin is currently disabled in `netlify.toml`.
+- Search UX work is parked in backlog.
+- Do not spend time on Algolia integration until search UX work is resumed.

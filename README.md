@@ -19,7 +19,6 @@ Preflight
 Predeploy check
 - `scripts/predeploy-check.sh --offline`
 - `scripts/predeploy-check.sh --online` (requires Netlify link/auth)
-- `scripts/predeploy-check.sh --online --algolia-on --context production` (explicit Algolia path check)
 
 CI
 - GitHub Actions validates `scripts/preflight.sh --skip-fetch --build` on push/PR.

@@ -29,10 +29,3 @@ HUGO_VERSION = "0.157.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "false"
 
-[[plugins]]
-package = "@algolia/netlify-plugin-crawler"
-  [plugins.inputs]
-  branches = ['main', 'master']
-  pathPrefix = "/posts"
-  customDomain = "rajat404.com"
-  renderJavaScript = true
