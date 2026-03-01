@@ -2,11 +2,10 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7f38e56f-08af-41fd-9685-7ed1badec966/deploy-status)](https://app.netlify.com/sites/rajat404/deploys)
 
+Source for https://rajat404.com
 
-Source for my website running at https://rajat404.com
-
-Version Change
-- 1 Mar 2026: hugo v0.157.0
+Version change
+- 1 Mar 2026: Hugo v0.157.0
 
 Local build
 - `npm install`
@@ -14,17 +13,17 @@ Local build
 
 Preflight
 - `scripts/preflight.sh`
-- `scripts/preflight.sh --fix --build` (auto-fix submodules/deps + smoke build)
+- `scripts/preflight.sh --fix --build`
+- `scripts/preflight.sh --fetch --build` (when freshness check is needed)
 
 Predeploy check
-- `scripts/predeploy-check.sh --offline`
+- `scripts/predeploy-check.sh` (offline default)
 - `scripts/predeploy-check.sh --online` (requires Netlify link/auth)
 
 CI
-- GitHub Actions validates `scripts/preflight.sh --skip-fetch --build` on push/PR.
+- GitHub Actions runs `scripts/preflight.sh --build` on push/PR.
 
-TODO:
+TODO
 - feedback fish
 - posthog
-- algolia
 - change `cd home` to `home`
