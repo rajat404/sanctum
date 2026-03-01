@@ -18,7 +18,8 @@ Preflight
 
 Predeploy check
 - `scripts/predeploy-check.sh --offline`
-- `scripts/predeploy-check.sh` (requires Netlify link/auth)
+- `scripts/predeploy-check.sh --online` (requires Netlify link/auth)
+- `scripts/predeploy-check.sh --online --algolia-on --context production` (explicit Algolia path check)
 
 TODO:
 - feedback fish

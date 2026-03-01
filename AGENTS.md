@@ -6,7 +6,7 @@ Sanctum-specific operational rules.
 
 - Before major diagnosis, upgrades, or deploy-affecting edits, run `scripts/preflight.sh`.
 - For deploy-affecting changes, run `scripts/predeploy-check.sh --offline` before commit.
-- If Netlify CLI is linked, also run `scripts/predeploy-check.sh` before push.
+- If Netlify CLI is linked, run `scripts/predeploy-check.sh --online` before push.
 - Do not push deploy-affecting changes until the relevant predeploy checks pass.
 
 ## Hugo and config consistency
@@ -28,4 +28,6 @@ Sanctum-specific operational rules.
 ## Algolia and search
 
 - Local validation defaults to `ALGOLIA_DISABLED=true` in predeploy checks.
+- Use `scripts/predeploy-check.sh --online --algolia-on --context production` for explicit Algolia-path checks.
+- Local Algolia plugin behavior has known limitations; confirm real Algolia health from Netlify deploy logs.
 - Do not debug Algolia backend health before confirming a visible search UI exists in the site UX.
