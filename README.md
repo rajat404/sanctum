@@ -8,6 +8,10 @@ Source for my website running at https://rajat404.com
 Version Change
 - 1 Mar 2026: hugo v0.157.0
 
+Local build
+- `npm install`
+- `PATH="$PWD/node_modules/.bin:$PATH" hugo --gc --minify`
+
 TODO:
 - feedback fish
 - posthog
