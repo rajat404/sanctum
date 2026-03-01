@@ -12,6 +12,10 @@ Local build
 - `npm install`
 - `PATH="$PWD/node_modules/.bin:$PATH" hugo --gc --minify`
 
+Preflight
+- `scripts/preflight.sh`
+- `scripts/preflight.sh --fix --build` (auto-fix submodules/deps + smoke build)
+
 Predeploy check
 - `scripts/predeploy-check.sh --offline`
 - `scripts/predeploy-check.sh` (requires Netlify link/auth)

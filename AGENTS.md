@@ -4,6 +4,7 @@ Sanctum-specific operational rules.
 
 ## Build and deploy safety
 
+- Before major diagnosis, upgrades, or deploy-affecting edits, run `scripts/preflight.sh`.
 - For deploy-affecting changes, run `scripts/predeploy-check.sh --offline` before commit.
 - If Netlify CLI is linked, also run `scripts/predeploy-check.sh` before push.
 - Do not push deploy-affecting changes until the relevant predeploy checks pass.

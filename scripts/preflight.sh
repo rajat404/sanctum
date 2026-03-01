@@ -84,8 +84,8 @@ fi
 
 if git rev-parse --abbrev-ref --symbolic-full-name @{u} >/dev/null 2>&1; then
   COUNTS="$(git rev-list --left-right --count HEAD...@{u})"
-  BEHIND="${COUNTS%% *}"
-  AHEAD="${COUNTS##* }"
+  # HEAD...@{u} -> first value is ahead, second is behind.
+  read -r AHEAD BEHIND <<< "$COUNTS"
   echo "info: upstream divergence -> ahead=$AHEAD behind=$BEHIND"
   if [ "$BEHIND" -gt 0 ]; then
     echo "warn: local branch is behind upstream; pull/rebase before major changes"
