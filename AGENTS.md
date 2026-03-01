@@ -4,6 +4,8 @@ Sanctum-specific operational rules.
 
 ## Build and deploy safety
 
+- CI runs `scripts/preflight.sh --skip-fetch --build` on push/PR; keep that path green.
+
 - Before major diagnosis, upgrades, or deploy-affecting edits, run `scripts/preflight.sh`.
 - For deploy-affecting changes, run `scripts/predeploy-check.sh --offline` before commit.
 - If Netlify CLI is linked, run `scripts/predeploy-check.sh --online` before push.
