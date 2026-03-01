@@ -6,7 +6,7 @@
 Source for my website running at https://rajat404.com
 
 Version Change
-- 23 May 2025: hugo v0.147.4
+- 1 Mar 2026: hugo v0.157.0
 
 TODO:
 - feedback fish
