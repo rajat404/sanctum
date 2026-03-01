@@ -3,47 +3,30 @@ set -euo pipefail
 
 usage() {
   cat <<'EOF'
-Usage: scripts/predeploy-check.sh [--offline|--online] [--algolia-on|--algolia-off] [--context <name>]
+Usage: scripts/predeploy-check.sh [--online] [--context <name>]
 
 Options:
-  --offline            Force Netlify build in offline mode
-  --online             Force Netlify build in online mode (requires linked project)
-  --algolia-on         Set ALGOLIA_DISABLED=false for build checks
-  --algolia-off        Set ALGOLIA_DISABLED=true for build checks (default)
-  --context <name>     Add build context to test (repeatable)
-  -h, --help           Show this help
+  --online          Run Netlify build in online mode (requires linked project)
+  --context <name>  Add build context to test (repeatable)
+  -h, --help        Show this help
 
 Defaults:
-  mode: auto (online if linked, else offline)
-  algolia: off
+  mode: offline
   contexts: production, deploy-preview
 
 Notes:
 - Uses global 'netlify' CLI if available, otherwise falls back to 'npx netlify-cli@latest'.
-- Fails if Netlify output indicates plugin failures, even when command exit code is zero.
+- Fails if Netlify output indicates plugin failures, even when exit code is zero.
 EOF
 }
 
-MODE="auto"      # auto|offline|online
-ALGOLIA_MODE="off" # off|on
+ONLINE=0
 CONTEXTS=()
 
 while [ "$#" -gt 0 ]; do
   case "$1" in
-    --offline)
-      MODE="offline"
-      shift
-      ;;
     --online)
-      MODE="online"
-      shift
-      ;;
-    --algolia-on)
-      ALGOLIA_MODE="on"
-      shift
-      ;;
-    --algolia-off)
-      ALGOLIA_MODE="off"
+      ONLINE=1
       shift
       ;;
     --context)
@@ -74,7 +57,6 @@ if ! command -v hugo >/dev/null 2>&1; then
   echo "error: hugo not found in PATH" >&2
   exit 1
 fi
-
 if ! command -v python3 >/dev/null 2>&1; then
   echo "error: python3 not found in PATH" >&2
   exit 1
@@ -100,12 +82,8 @@ print("info: netlify.toml parse OK")
 PY
 
 if [ ! -d node_modules ]; then
-  if ! command -v npm >/dev/null 2>&1; then
-    echo "error: node_modules missing and npm not found" >&2
-    exit 1
-  fi
-  echo "info: node_modules missing -> running npm install"
-  npm install
+  echo "error: node_modules missing (run 'npm install')" >&2
+  exit 1
 fi
 
 NETLIFY_CMD=()
@@ -128,39 +106,13 @@ if [ -n "${NETLIFY_SITE_ID:-}" ] || [ -f ".netlify/state.json" ]; then
   IS_LINKED=1
 fi
 
-EFFECTIVE_MODE="$MODE"
-if [ "$MODE" = "auto" ]; then
-  if [ "$IS_LINKED" -eq 1 ]; then
-    EFFECTIVE_MODE="online"
-  else
-    EFFECTIVE_MODE="offline"
-  fi
-fi
-
-if [ "$EFFECTIVE_MODE" = "online" ] && [ "$IS_LINKED" -ne 1 ]; then
-  echo "error: online mode requires linked Netlify project" >&2
-  echo "hint: run 'netlify login' then 'netlify link', or use --offline" >&2
+if [ "$ONLINE" -eq 1 ] && [ "$IS_LINKED" -ne 1 ]; then
+  echo "error: --online requires linked Netlify project" >&2
+  echo "hint: run 'netlify login' and 'netlify link', or use offline mode" >&2
   exit 1
 fi
 
-if [ "$IS_LINKED" -eq 1 ]; then
-  echo "info: netlify project link detected"
-else
-  echo "info: netlify project not linked"
-fi
-
-echo "info: mode -> $EFFECTIVE_MODE"
-
-aif="true"
-if [ "$ALGOLIA_MODE" = "on" ]; then
-  aif="false"
-fi
-export ALGOLIA_DISABLED="$aif"
-
-echo "info: ALGOLIA_DISABLED=$ALGOLIA_DISABLED"
-if [ "$ALGOLIA_MODE" = "on" ]; then
-  echo "warn: algolia checks enabled; local plugin limitations may fail build" >&2
-fi
+echo "info: mode -> $([ "$ONLINE" -eq 1 ] && echo online || echo offline)"
 
 export PATH="$PWD/node_modules/.bin:$PATH"
 
@@ -174,12 +126,12 @@ run_netlify_build() {
 
   declare -a args
   args=(build --context "$ctx")
-  if [ "$EFFECTIVE_MODE" = "offline" ]; then
+  if [ "$ONLINE" -ne 1 ]; then
     args+=(--offline)
   fi
 
   if ! run_netlify "${args[@]}" 2>&1 | tee "$raw_log"; then
-    echo "error: netlify build command failed for context '$ctx'" >&2
+    echo "error: netlify build failed for context '$ctx'" >&2
     rm -f "$raw_log" "$clean_log"
     return 1
   fi
@@ -187,7 +139,7 @@ run_netlify_build() {
   sed -E $'s/\x1B\[[0-9;]*[A-Za-z]//g' "$raw_log" > "$clean_log"
 
   if grep -Eq 'Plugin ".+" failed' "$clean_log"; then
-    echo "error: plugin failure detected in netlify build output for context '$ctx'" >&2
+    echo "error: plugin failure detected for context '$ctx'" >&2
     grep -E 'Plugin ".+" failed|Error message|Error:' "$clean_log" || true
     rm -f "$raw_log" "$clean_log"
     return 1
