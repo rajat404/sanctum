@@ -30,4 +30,4 @@ jobs:
         run: npm ci
 
       - name: Run preflight checks
-        run: scripts/preflight.sh --skip-fetch --build
+        run: scripts/preflight.sh --build
