@@ -12,6 +12,10 @@ Local build
 - `npm install`
 - `PATH="$PWD/node_modules/.bin:$PATH" hugo --gc --minify`
 
+Predeploy check
+- `scripts/predeploy-check.sh --offline`
+- `scripts/predeploy-check.sh` (requires Netlify link/auth)
+
 TODO:
 - feedback fish
 - posthog
