@@ -2,9 +2,9 @@
 title: "Working With Agents"
 date: 2025-06-13T13:15:49+05:30
 toc: false
-images:
 tags: ["tools"]
 categories: ["blog"]
+draft: true
 ---
 
 > TODO: Add a new category/section/taxonomy for a long running section on blog
