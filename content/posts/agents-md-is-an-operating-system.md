@@ -7,51 +7,73 @@ categories: ["blog"]
 draft: true
 ---
 
-Most people seem to treat `AGENTS.md` like a prettier README for the machines.
+The fastest way to tell that an `AGENTS.md` file is bad is to watch an agent touch a mildly messy repo.
 
-I think that's underselling the thing.
+Everything looks fine right until:
 
-If you're using coding agents seriously, `AGENTS.md` is less of a style guide and more of an operating system. Tiny one, admittedly. But still an operating system.
+- the working tree is dirty
+- a command fails
+- there are three plausible next steps
+- the model decides this is a good time to improvise
 
-It decides what gets loaded first, what the runtime defaults are, what kind of failures are acceptable, what shape the outputs should have and, perhaps most importantly, what kinds of stupidity should be prevented before they happen.
+That's when the whole thing falls apart.
+
+The agent starts apologizing, retrying nonsense, over-explaining, under-thinking, and generally behaving like an intern who found a keyboard and a dream.
+
+Which is why I think most people are framing `AGENTS.md` files incorrectly.
+
+They're not README files for the machine.
+
+They're not "house style" docs.
+
+If you're using coding agents seriously, `AGENTS.md` is much closer to an operating system. Tiny one, admittedly. But still an operating system.
+
+It controls boot behavior, defaults, guardrails, failure handling and, ideally, prevents a fair bit of stupidity before it happens.
 
 Caveat Emptor. YMMV.
 
 Note: The terms `AGENTS.md` and `CLAUDE.md` are used interchangeably here.
 
-## Most AGENTS files are too soft
+## Most AGENTS files are decorative
 
-A lot of the examples floating around on the internet read like this:
+A lot of the examples I see on the internet are some variation of:
 
 - be helpful
 - write clean code
 - think step by step
 - run tests
 
-Well then. Groundbreaking stuff.
+Well then. We have solved software engineering.
 
-The issue isn't that these are wrong. The issue is that they're too vague to shape behavior in any meaningful way once the session gets messy.
+The problem isn't that these are wrong. The problem is that they're too soft.
 
-The real test of an `AGENTS.md` file is not whether it reads well in isolation. The real test is whether it still helps when:
+They read nicely in isolation, but they don't really shape behavior once the session gets weird. And sessions do get weird. Constantly.
 
-- the repo is dirty
-- the command just failed
-- there are three plausible next steps
-- the model is about to improvise some nonsense
+The real test of an `AGENTS.md` file is not whether it sounds sensible. The real test is whether it still helps when reality starts throwing chairs.
 
-That's where a weak `AGENTS.md` file quietly evaporates.
+If it can't do that, it is probably just decor.
 
-## What I want from it instead
+## The way I think about it
 
-My root `AGENTS.md` files tend to do four things.
+I want `AGENTS.md` to do the kinds of things an operating system or shell config does:
 
-### Set the tone early
+- establish defaults
+- define startup behavior
+- encode safety rules
+- make failure handling predictable
+- reduce repeated operator babysitting
 
-The beginning matters more than people think.
+In other words, I don't want a manifesto. I want runtime behavior.
 
-LLMs are basically glorified autocomplete engines with delusions of grandeur. They infer behavior from the context they're given, and the earliest instructions tend to have outsized influence.
+That distinction matters.
 
-So the first few lines in my files are usually not about repo trivia. They define the behavioral contract.
+## The beginning of the file is absurdly important
+
+Think of your context window as real estate.
+
+The top of the file is prime property. Ocean-view penthouse. The rest of the file is still useful, sure, but the first few lines are where you want your highest-leverage instructions.
+
+So I prefer starting with behavioral compression, not repo trivia.
 
 For example:
 
@@ -64,37 +86,54 @@ For example:
 [PRIORITY]: Signal-to-noise ratio > conversational tone.
 ```
 
-Those few lines do more useful work than fifty lines of generic "please be thoughtful".
+Those few lines do more useful work for me than fifty lines of "please be thoughtful and write good code".
 
-### Define startup ritual
+They influence:
 
-I want the session to begin predictably.
+- response style
+- verbosity
+- output shape
+- how much conversational sludge I have to wade through
 
-So instead of saying "understand the repo first", I prefer something operational:
+This is the kind of thing I want at the top. Not a mini-wiki about the repo's folder structure from 2023.
 
-- read root instruction files once
+## Startup ritual matters
+
+One of the easiest ways to improve agent reliability is to make session startup boring.
+
+Not inspirational. Boring.
+
+Instead of "understand the repo first", I prefer something operational:
+
+- read instruction files once
 - run `git status --short --branch`
 - run `git branch --show-current`
 - run `pwd`
 
-That's not prose. That's muscle memory.
+That's not prose. That's a boot sequence.
 
-And muscle memory is exactly what you want when the model is hopping across repos and sessions all day.
+And boot sequences are good because they reduce improvisation.
 
-### Define failure handling
+If the agent starts every non-trivial task by getting repo state, branch state and path state, a bunch of stupid mistakes never happen in the first place.
 
-This is the part I see missing most often.
+Which is, needless to say, preferable to writing a postmortem later.
 
-Commands fail. Paths are wrong. Auth expires. Network flakes. Shell incantations go sideways.
+## Failure handling is where the real value is
 
-If you don't define how the agent should react, you'll usually get one of two failure modes:
+This is the piece I find missing most often.
+
+Commands fail. Auth expires. Paths are wrong. Shell commands get mangled. Network calls flake out. Sometimes the machine just decides to hallucinate confidence for sport.
+
+If you don't tell the agent how to behave when things go wrong, you usually get one of two outcomes:
 
 - apologetic thrashing
 - creative fiction
 
-Neither is particularly useful.
+Neither is a particularly compelling workflow.
 
-So I prefer explicit blocker classification. Something like:
+So I like making failure handling explicit.
+
+For example, force the blocker into categories like:
 
 - `permission/sandbox`
 - `auth/credentials`
@@ -103,7 +142,7 @@ So I prefer explicit blocker classification. Something like:
 - `git-state/conflict`
 - `parse/command-shape`
 
-And then force the response into a simple structure:
+And then force the output to be:
 
 - root cause
 - next safe retry
@@ -111,51 +150,58 @@ And then force the response into a simple structure:
 
 That's it.
 
-No interpretive dance.
+No drama. No interpretive dance. No three failed retries followed by a paragraph about "possible environmental factors".
 
-### Encode version-control behavior
+Just tell me what broke and what the next sane move is.
 
-Git is where a lot of agent sessions go to die.
+## Git deserves special treatment
 
-So I like the rules to be blunt:
+Git is where agent sessions go to die.
+
+Or more accurately, it is where otherwise-fine sessions go to become irritating.
+
+So I prefer the git rules to be blunt:
 
 - commit often
 - keep commits atomic
-- inspect diff stats before commit
-- confirm single concern
-- don't do destructive nonsense unless explicitly asked
+- inspect diff stats before committing
+- check that the commit is single-concern
+- do not do destructive nonsense without explicit approval
 
-This is not glamorous. But a huge chunk of "good agent workflow" is really just "stop making git state worse".
+This is not glamorous advice. But a shocking amount of "advanced agent workflow" is really just "stop letting the model make your git state worse".
 
-## The point isn't personality
+## This is not about personality
 
-Ironically, I do put a fair bit of personality into these files.
+I do put personality into these files. Sometimes a fair bit of it.
 
-But that is not the point.
+But that isn't the point.
 
 The point is compression.
 
-I want a compact set of instructions that encodes how I like to work:
+I want a compact file that encodes:
 
-- how much verbosity I want
-- what counts as sufficient validation
-- when to stop and ask
-- how to behave when the environment gets weird
+- how terse I want the responses
+- what kind of validation counts
+- when the agent should stop and ask
+- how it should react under uncertainty
+- what defaults should hold unless overridden
 
 In that sense, `AGENTS.md` is much closer to shell config than documentation.
 
-You are not just explaining the repo. You are configuring the machine.
+You are not merely describing the repo.
 
-## A decent test
+You are configuring the machine that will operate inside it.
 
-If you want to know whether your `AGENTS.md` file is any good, ask yourself:
+## The only test I really care about
+
+If you want to know whether your `AGENTS.md` file is actually good, ask:
 
 - does it reduce ambiguity?
 - does it prevent recurring mistakes?
 - does it make failure handling more deterministic?
-- does it encode actual workflow, or just preferences cosplay?
+- does it encode real workflow, or just preferences cosplay?
 
-If the answer to most of those is "no", you probably don't have an operating system yet.
+If the answer to most of those is "no", you probably do not have an operating system.
 
 You have vibes.
 
